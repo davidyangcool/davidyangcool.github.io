@@ -5,42 +5,32 @@ header-img: img/post-bg-desk.jpg
 email: davidyang_cool@icloud.com
 description: "Every failure is leading towards success."
 keyword: "David, David Yang Blog, 杨卫东的博客, david yang, 杨卫东, Python, Flask, Django,MySQL,PostgreSQL"
-url: "http://davidyangcool.github.io"          # your host, for absolute URL
-baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+url: "http://davidyangcool.github.io" # your host, for absolute URL
+baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/davidyangcool/davidyangcool.github.io.git" # you code repository
 
 # Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
+sidebar: true # whether or not using Sidebar.
 sidebar-about-description: "Learning by doing!"
-sidebar-avatar: /img/myprofile.png      # use absolute URL, seeing it's used in both `/` and `/about/`
-
-
+sidebar-avatar: /img/myprofile.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # SNS settings
 RSS: false
-zhihu_username:     davidyang_cool
-github_username:    davidyangcool
-facebook_username:  davidyang.cool
-twitter_username:   DavidyangCool
-
-
-
+zhihu_username: davidyang_cool
+github_username: davidyangcool
+facebook_username: davidyang.cool
+twitter_username: DavidyangCool
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 permalink: pretty
 paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
-
-
+exclude: ["less", "node_modules", "Gruntfile.js", "package.json", "README.md"]
+anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate,jekyll-admin]
-
-
-
+plugins: [jekyll-paginate, jekyll-admin]
 
 # Markdown settings
 # replace redcarpet to kramdown,
@@ -49,9 +39,7 @@ gems: [jekyll-paginate,jekyll-admin]
 markdown: kramdown
 highlighter: rouge
 kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
-
-
+    input: GFM # use Github Flavored Markdown !important
 
 # 评论系统
 # Disqus（https://disqus.com/）
@@ -59,14 +47,13 @@ kramdown:
 
 # Gitalk
 gitalk:
-  enable: true    #是否开启Gitalk评论
-  clientID: 14cca8bf8f2fbcb8df39                            #生成的clientID
-  clientSecret: aef6e1ee025befc0456feca5504303bf901152b0    #生成的clientSecret
-  repo: davidyangcool.github.io    #仓库名称
-  owner: davidyangcool    #github用户名
-  admin: davidyangcool
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
-
+    enable: true #是否开启Gitalk评论
+    clientID: 14cca8bf8f2fbcb8df39 #生成的clientID
+    clientSecret: aef6e1ee025befc0456feca5504303bf901152b0 #生成的clientSecret
+    repo: davidyangcool.github.io #仓库名称
+    owner: davidyangcool #github用户名
+    admin: davidyangcool
+    distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 # 统计
 
@@ -75,38 +62,22 @@ gitalk:
 #ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
-ga_track_id: 'UA-133452054-1'            # Format: UA-xxxxxx-xx
-ga_domain: davidyangcool.github.io               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
-
-
-
-
+ga_track_id: "UA-133452054-1" # Format: UA-xxxxxx-xx
+ga_domain: davidyangcool.github.io # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 # Featured Tags
-featured-tags: true                     # 是否使用首页标签
-featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
-
-
+featured-tags: true # 是否使用首页标签
+featured-condition-size: 1 # 相同标签数量大于这个数，才会出现在首页
 
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
 service-worker: true
 
-
-
 # Friends
-friends: [
-    {
-        title: "Python",
-        href: "https://www.python.org/"
-    },{
-        title: "Flask",
-        href: "http://flask.pocoo.org/"
-    },{
-        title: "Django",
-        href: "https://www.djangoproject.com/"
-    },{
-        title: "GitHub",
-        href: "https://github.com/"
-    }
-]
+friends:
+    [
+        { title: "Python", href: "https://www.python.org/" },
+        { title: "Flask", href: "http://flask.pocoo.org/" },
+        { title: "Django", href: "https://www.djangoproject.com/" },
+        { title: "GitHub", href: "https://github.com/" },
+    ]
